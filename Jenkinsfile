@@ -9,7 +9,7 @@ pipeline {
         stage('Requirements') {
             steps {
                 // enable the script to be executed directly from shell
-                sh('chmod +x ./algorith.sh')
+                sh('chmod +x ./algorithm.sh')
             }
         }
         stage('Build') {
